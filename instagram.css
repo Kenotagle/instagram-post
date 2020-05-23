@@ -1,0 +1,74 @@
+body{
+    background: black;
+}
+.Publicacion{
+    background-color: white;
+    height: 550px;
+    width: 380px;
+    position: absolute ; top: 50%; left: 50%; transform: translate(-50%,-50%);
+}
+.Titulo{
+    width: 100%;
+    height: 45px;
+    margin: 5px;
+    overflow:hidden;
+    display: block;
+    /* padding: 10px; */
+}
+.titulo-iconos{
+    width: 100px;
+    display: flex;
+    float: left;
+}
+.titulo-iconos img{
+    padding-top: 10px;
+}
+.Subtitulo{
+    float: right;   
+    height: 50px;
+    display: block;
+    padding-top: 7px;
+    padding-left: 5px;
+}
+.Subtitulo h5{
+    margin: 0;
+}
+
+.puntitos img{
+    float: right;
+    padding: 10px;
+}
+
+.Logoperfil{
+   
+    width: 10%; ;
+}
+.Usuario{
+    font-weight: bold;
+    font-size: 13px;
+}
+.Ubicacion{
+    font-size: 13px;
+}
+.Opciones{
+    float: right
+}
+.Foto{
+    overflow: hidden;
+}
+.Acciones{
+overflow: hidden;
+display: block;
+margin: 10px;
+}
+.Iconos-izquierda{
+    float: left;
+}
+.Iconos-derecha{
+    float: right;
+    padding-right: 10px;
+}
+.Comentarios{
+    font-size: small;
+    margin: 10px;
+}
